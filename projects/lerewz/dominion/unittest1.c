@@ -15,6 +15,8 @@
 int assertEq();
 
 int main () {
+	printf("\nUnit Test 1\n");
+	
 	// Gather function results
 	int* k = kingdomCards(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 

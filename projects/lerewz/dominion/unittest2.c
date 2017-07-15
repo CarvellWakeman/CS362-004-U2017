@@ -19,6 +19,8 @@ void printDeck(int deck[MAX_DECK], int);
 void printDecks(struct gameState*);
 
 int main () {
+	printf("\nUnit Test 2\n");
+
 	int i;
 	int j;
 
