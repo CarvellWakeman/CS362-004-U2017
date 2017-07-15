@@ -41,7 +41,7 @@ int main () {
 
 
 
-	printf("ALL TESTS FINISHED\n");
+	printf("ALL TESTS FINISHED\n\n");
 	exit(0);
 }
 
