@@ -1,0 +1,26 @@
+Adventurer card not properly discarding cards. Dominion.c:684-687
+o	Repro steps: Call cardEffect(adventurer,...) using a gameState with the deck below and empty hand/discard. 
+o	Deck (smithy, smithy, copper, gold, council_room) 
+o	Expected: Discard pile has both smithy cards in it
+o	Actual: Discard pile has incorrect cards in discard pile
+o	Cause: Unknown, discardCard may be a culprit
+Adventurer card should be removed from the player’s deckCount. Dominion.c:674 -> Dominion.c:drawCard()
+o	Repro steps: Call cardEffect(adventurer,...) using a gameState with the deck below and empty hand/discard. 
+o	Deck (smithy, smithy, copper, gold, council_room) 
+o	Expected: deckCount should decrease by at least 2
+o	Actual: deckCount has incorrect number of cards removed from deck
+o	Cause: drawCard is not appropriately updating deck
+
+Smithy card should add 3 cards to the player’s handCount. Dominion.c:831-840
+o	Repro steps: Call cardEffect(smithy,...) using a gameState with the deck below and empty hand/discard. 
+o	Deck (smithy, smithy, copper, gold, council_room) 
+o	Expected: handCount should have increased by 2 (+3 drawn, -1 smithyCard)
+o	Actual: handCount decreases by 1 only
+o	Cause: drawCard is not appropriately updating hand
+
+Council_room card not drawing 3 cards. Dominion.c:694 -> Dominion.c:drawCard()
+o	Repro steps: Call cardEffect(council_room,...) using a gameState with the deck below and empty hand/discard. 
+o	Deck (smithy, smithy, copper, gold, council_room) 
+o	Expected: handCount should have increased by 2 (+3 drawn, -1 councilRoomCard)
+o	Actual: handCount decreases by 1 only
+o	Cause: drawCard is not appropriately updating hand
