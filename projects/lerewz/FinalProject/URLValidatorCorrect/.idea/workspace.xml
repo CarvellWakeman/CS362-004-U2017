@@ -27,8 +27,8 @@
       <file leaf-file-name="UrlValidatorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/UrlValidatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="119" column="13" lean-forward="true" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
+            <state relative-caret-position="946">
+              <caret line="119" column="13" lean-forward="false" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
               <folding>
                 <element signature="docComment;class#UrlValidatorTest#0" expanded="false" />
                 <element signature="method#setUp#0;class#UrlValidatorTest#0" expanded="false" />
@@ -106,13 +106,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../aburasa/FinalProject/URLValidatorInCorrect" />
     <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
   <component name="RunDashboard">
@@ -262,6 +262,41 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/UrlValidator.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7616">
+          <caret line="481" column="11" lean-forward="false" selection-start-line="481" selection-start-column="11" selection-end-line="481" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/UrlValidatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="119" column="13" lean-forward="true" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
+          <folding>
+            <element signature="docComment;class#UrlValidatorTest#0" expanded="false" />
+            <element signature="method#setUp#0;class#UrlValidatorTest#0" expanded="false" />
+            <element signature="e#1548#1564#0" expanded="false" />
+            <element signature="method#testIsValidScheme#0;class#UrlValidatorTest#0" expanded="false" />
+            <element signature="method#testValidator202#0;class#UrlValidatorTest#0" expanded="false" />
+            <element signature="method#testValidator204#0;class#UrlValidatorTest#0" expanded="false" />
+            <element signature="method#testValidator218#0;class#UrlValidatorTest#0" expanded="false" />
+            <element signature="method#testValidator248#0;class#UrlValidatorTest#0" expanded="false" />
+            <element signature="method#testValidator288#0;class#UrlValidatorTest#0" expanded="false" />
+            <element signature="method#testValidator276#0;class#UrlValidatorTest#0" expanded="false" />
+            <element signature="e#9486#9510#0" expanded="false" />
+            <element signature="method#testPartsIndextoString#0;class#UrlValidatorTest#0" expanded="false" />
+            <element signature="method#testBug1#0;class#UrlValidatorTest#0" expanded="false" />
+            <element signature="method#testBug2#0;class#UrlValidatorTest#0" expanded="false" />
+            <element signature="docComment;method#main#0;class#UrlValidatorTest#0" expanded="false" />
+            <element signature="method#main#0;class#UrlValidatorTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UrlValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8177">
           <caret line="481" column="11" lean-forward="false" selection-start-line="481" selection-start-column="11" selection-end-line="481" selection-end-column="11" />
           <folding>
@@ -315,7 +350,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -323,7 +357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="62" column="13" lean-forward="false" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -339,8 +372,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/UrlValidatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="119" column="13" lean-forward="true" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
+        <state relative-caret-position="946">
+          <caret line="119" column="13" lean-forward="false" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
           <folding>
             <element signature="docComment;class#UrlValidatorTest#0" expanded="false" />
             <element signature="method#setUp#0;class#UrlValidatorTest#0" expanded="false" />
